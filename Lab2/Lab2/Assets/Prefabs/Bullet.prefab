@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a249073d81d4f744fb1907f5f3d07877, type: 3}
+      propertyPath: m_TagString
+      value: TankAmmo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62,6 +66,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a249073d81d4f744fb1907f5f3d07877, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1540638233558018738}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a249073d81d4f744fb1907f5f3d07877, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1270579283688537263}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a249073d81d4f744fb1907f5f3d07877, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3165357327320696652}
   m_SourcePrefab: {fileID: 100100000, guid: a249073d81d4f744fb1907f5f3d07877, type: 3}
 --- !u!1 &2705530724016370255 stripped
 GameObject:
@@ -118,3 +128,38 @@ CapsuleCollider:
   m_Height: 0.04182641
   m_Direction: 2
   m_Center: {x: 0.00006429056, y: -0.0001252512, z: 0.0046565295}
+--- !u!136 &1270579283688537263
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705530724016370255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.010488383
+  m_Height: 0.041815568
+  m_Direction: 2
+  m_Center: {x: 0.000059858954, y: 0, z: 0.004658966}
+--- !u!114 &3165357327320696652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705530724016370255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7b67944da2ac744abe81834898568a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AmmoShootTarget
