@@ -6,11 +6,13 @@ TagManager:
   tags:
   - TankAmmo
   - Tank
+  - ShootTarget
+  - GrabBox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Overlay UI
   - Water
   - UI
   - 
